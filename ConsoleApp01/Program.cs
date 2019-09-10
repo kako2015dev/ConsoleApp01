@@ -22,7 +22,7 @@ namespace ConsoleApp01
             var wordList = firstLine.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToList();
             wordList.ForEach(a => { Console.WriteLine(a); });
 
-
+            // davate comentari
             int lineSize = 20;
             string s = string.Empty;
             List<string> newList = new List<string>();
@@ -79,6 +79,7 @@ namespace ConsoleApp01
 
             wl("Hello World!");
             Console.ReadKey();
+            wl("Hello World!");
 
             // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
         }
